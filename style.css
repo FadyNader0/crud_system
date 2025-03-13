@@ -153,3 +153,26 @@ h1{
   .input:checked + .slider:before {
     transform: translateX(30px);
   }
+
+
+  /* Scrollbar width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Scrollbar track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Scrollbar handle */
+::-webkit-scrollbar-thumb {
+
+  background: rgba(44,255,0,1) ;
+  border-radius: 5px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(36, 212, 1); 
+}
